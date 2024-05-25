@@ -512,13 +512,13 @@ We will refer to this file path during setup. Execute the command:
 @tab:active yarn
 
 ```bash
-yarn graph init --studio  zksync-subgraph-example
+yarn graph init --studio  zksync-subgraph-example --abi pepe_abi.json --from-contract 0xFD282F16a64c6D304aC05d1A58Da15bed0467c71
 ```
 
 @tab npm
 
 ```bash
-npm graph init --studio  zksync-subgraph-example
+npm graph init --studio  zksync-subgraph-example --abi pepe_abi.json --from-contract 0xFD282F16a64c6D304aC05d1A58Da15bed0467c71
 ```
 
 :::
